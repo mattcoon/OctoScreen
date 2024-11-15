@@ -15,7 +15,7 @@ WORKDIR := $(shell pwd)
 BUILD_PATH := $(WORKDIR)/build
 DOCKER_IMAGE_BUILD = mcuadros/octoprint-tft-build
 
-DEBIAN_PACKAGES = STRETCH
+DEBIAN_PACKAGES = BUSTER
 
 BUSTER_NAME := buster
 BUSTER_IMAGE := golang:1.15-buster
