@@ -140,9 +140,9 @@ func getDefaultMenuItems(client *octoprintApis.Client) []dataModels.MenuItem {
 			]
 		},
 		{
-			"name": "Filament",
-			"icon": "filament-spool",
-			"panel": "filament"
+			"name": "Move",
+			"icon": "move",
+			"panel": "move"
 		},
 		{
 			"name": "Configuration",
